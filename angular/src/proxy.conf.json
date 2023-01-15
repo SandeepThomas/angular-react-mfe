@@ -1,0 +1,18 @@
+{
+  "/craco-react": {
+    "target": "http://127.0.0.1:3000",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/craco-react": ""
+    }
+  },
+  "/nx-react": {
+    "target": "http://localhost:4200",
+    "secure": false,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/nx-react": ""
+    }
+  }
+}
