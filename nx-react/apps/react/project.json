@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "nxReact",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/react/src",
   "projectType": "application",
@@ -49,16 +49,16 @@
       "executor": "@nrwl/react:module-federation-dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "react:build",
+        "buildTarget": "nxReact:build",
         "hmr": true,
         "port": 4200
       },
       "configurations": {
         "development": {
-          "buildTarget": "react:build:development"
+          "buildTarget": "nxReact:build:development"
         },
         "production": {
-          "buildTarget": "react:build:production",
+          "buildTarget": "nxReact:build:production",
           "hmr": false
         }
       }
@@ -82,15 +82,15 @@
       "executor": "@nrwl/web:file-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "react:build",
+        "buildTarget": "nxReact:build",
         "port": 4200
       },
       "configurations": {
         "development": {
-          "buildTarget": "react:build:development"
+          "buildTarget": "nxReact:build:development"
         },
         "production": {
-          "buildTarget": "react:build:production"
+          "buildTarget": "nxReact:build:production"
         }
       }
     }

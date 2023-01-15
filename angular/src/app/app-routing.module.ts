@@ -14,7 +14,7 @@ const routes: Routes = [
     data: {
       type: 'script',
       remoteEntry: '/nx-react/remoteEntry.js',
-      remoteName: 'react',
+      remoteName: 'nxReact',
       exposedModule: './web-component',
       elementName: 'react-element',
     } as WebComponentWrapperOptions
