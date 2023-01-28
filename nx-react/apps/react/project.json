@@ -14,7 +14,6 @@
         "index": "apps/react/src/index.html",
         "baseHref": "/",
         "main": "apps/react/src/main.ts",
-        "polyfills": "apps/react/src/polyfills.ts",
         "tsConfig": "apps/react/tsconfig.app.json",
         "assets": ["apps/react/src/favicon.ico", "apps/react/src/assets"],
         "styles": [],
@@ -76,6 +75,12 @@
       "options": {
         "jestConfig": "apps/react/jest.config.ts",
         "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
       }
     },
     "serve-static": {
