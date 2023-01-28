@@ -6,8 +6,9 @@ Angular 15 React 18 mfe integration
 
 host: angular v15.1.0
 
-remote: react v18.2.0
+remote 1: react v18.2.0 with nx v15.6.3
 
+remote 2: react v18.2.0 with craco v7.0.0
 
 ### folders
 
